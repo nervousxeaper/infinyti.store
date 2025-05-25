@@ -1,0 +1,42 @@
+.team {
+  margin-top: 60px;
+}
+
+.team h2 {
+  border-left: 5px solid #0ff;
+  padding-left: 10px;
+  color: #0ff;
+  margin-bottom: 20px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.member {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+  background-color: #333;
+}
+
+.member h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #0ff;
+}
+
+.member p {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+  color: #ddd;
+}
